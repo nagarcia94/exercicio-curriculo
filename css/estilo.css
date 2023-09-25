@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter&display=swap');
+
+*{box-sizing: border-box;}
+
+html {font-size: 16px;}
+
+body {
+    color: black;
+    font-family: 'Inika', serif; Inter,sans-serif;
+    background-color: #cc85a8;
+}
+
+body, h1, h2, h3, p, figure, {
+    margin: 0;
+    padding: 0;
+}
+
+img { max-width: 100%;}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    background-color: #cc85a8;
+}
