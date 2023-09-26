@@ -21,6 +21,13 @@ img { max-width: 100%;}
 
 h1 {
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
+    text-transform: uppercase;   
+}
+
+header {
     background-color: #cc85a8;
+    padding: 10px;
+    width: 50px;
+    margin: auto;
+
 }
