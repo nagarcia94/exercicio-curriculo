@@ -8,7 +8,6 @@ html {font-size: 16px;}
 body {
     color: black;
     font-family: 'Inika', serif; Inter,sans-serif;
-    background-color: #cc85a8;
 }
 
 body, h1, h2, h3, p, figure, {
@@ -21,13 +20,19 @@ img { max-width: 100%;}
 
 h1 {
     font-family: 'Inter', sans-serif;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    margin-right: 50px;
+
+}
+h2 {
+    margin-right: 60px;
+    margin-top: -15px;
 }
 
 header {
-    background-color: #cc85a8;
+    background-color: #f3d5d9;
     padding: 10px;
-    width: 50px;
-    margin: auto;
-
+    width: 100vw;
+    font-size: 15px;
+    text-align: right;
 }
