@@ -52,5 +52,34 @@ figure img {
 .EXeFOR {
     background-color: aquamarine;
     flex-direction: column;
-    display: flex;
+}
+
+@media screen and (min-width: 400px) {
+
+    figure img {
+        width: 40%;  
+      }
+    
+    .info {
+        width: 40%;
+        padding: 80px;
+        justify-content: space-between;
+    
+    }
+
+    .exp {
+        background-color:#f07979;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: none;
+
+    }
+    .form {
+        background-color: #cec0c0;
+
+    }
+
+
+
 }
