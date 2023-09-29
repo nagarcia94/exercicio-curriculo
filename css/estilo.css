@@ -3,7 +3,7 @@
 
 *{box-sizing: border-box;}
 
-html {font-size: 16px;}
+html {font-size: 20px;}
 
 body {
     color: black;
@@ -15,71 +15,10 @@ body, h1, h2, h3, p, figure {
     padding: 0;
 }
 
-img { max-width: 100%;}
-
-
-h1 {
-    font-family: 'Inter', sans-serif,'Inika', serif; 
-    text-transform: uppercase;
-    margin-right: 50px;
-
-}
-h2 {
-    margin-left: 60px;
-    margin-top: -15px;
-    
-}
-
-header {
-    background-color: #cfcccc;
-    padding: 10px;
-    width: 100vw;
-    font-size: 15px;
-    text-align: left;
-}
-
-.info  {
-    background-color: #cfcccc;
-    margin-left: 0;
-    width: 300px;
-    padding: 15px;
-}
-
 figure img {
-    width:300px;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
 }
 
-.EXeFOR {
-    background-color: aquamarine;
-    flex-direction: column;
-}
 
-@media screen and (min-width: 400px) {
-
-    figure img {
-        width: 40%;  
-      }
-    
-    .info {
-        width: 40%;
-        padding: 80px;
-        justify-content: space-between;
-    
-    }
-
-    .exp {
-        background-color:#f07979;
-        width: 60%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: none;
-
-    }
-    .form {
-        background-color: #cec0c0;
-
-    }
-
-
-
-}
