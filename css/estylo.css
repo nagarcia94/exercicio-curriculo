@@ -43,15 +43,16 @@ header {
     background-color: #41B6A1;
     padding: 20px;
     display: flex;
+    justify-content: space-between;
 
 }
 
 .coluna1 {
     background-color:var(--cor-branco);
-    width: 30%;
+    width: 40%;
     margin-left: -10px;
-    padding: 10px; 
-   
+ 
+  
 
 }
 
@@ -65,12 +66,20 @@ header {
 
 .contato {
     background-color: var(--cor-cinza1);
-    width: 80vh;
+    width: 100%;
     max-height: max-content;
-    padding: 40px;
+    padding: 20px;
     align-items: center;
+    margin: auto; 
 }
 
+.contato h2 {
+    text-align: left;  
+}
+
+.contato ul li {
+    font-size: 20px;
+}
 
 
 
