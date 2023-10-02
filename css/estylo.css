@@ -24,12 +24,15 @@ h1, h2, p {
 h1 {
     color: var(--cor-verde); 
     text-align: right;
+    font-size: 400%;
 }
 
 header p {
     color: var(--cor-cinza2);
     text-align: right;
     margin-right: 30px;
+    width: auto;
+    font-size: 200%;
 
 }
 
@@ -37,16 +40,30 @@ header {
     background-color: var(--cor-cinza1);
     padding: 50px;
     margin: auto;
+    width: auto;
 }
+
 
 .container {
     background-color: #41B6A1;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 150%;
     
 
+}
+
+figure img {
+    width: 50%;
+    display: flex;
+    
+}
+
+.foto {
+    display: flex;
+    text-align: center;
+    
 }
 
 .coluna1 {
@@ -84,6 +101,8 @@ header {
 .contato h2 {
     color: var(--cor-verde);
 }
+
+  
 
 .habilidade {
     background-color: var(--cor-branco);
