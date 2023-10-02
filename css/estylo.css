@@ -46,10 +46,11 @@ header {
 
 .container {
     background-color: #41B6A1;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     height: 150%;
+    padding-bottom: 0px;
     
 
 }
@@ -62,7 +63,10 @@ figure img {
 
 .foto {
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+    width: 70vw;
     
 }
 
