@@ -88,25 +88,28 @@ figure img {
 }
 .coluna2 h2 {
     color: var(--cor-preto);
-    font-size: 30px;
+    font-size:25px;
     border-bottom-style:groove;
     border-width: 6px; 
     border-color: #82ecd9;
    
 }
 .coluna2 p {
-    font-size: 30px;
+    font-size: 20px;
 
 
 }
 
 .contato {
     background-color: var(--cor-branco);
-    width: 100%;
+    width: 60%;
     max-height: max-content;
     padding: 25px;
     height: 30%;
-    font-size: 25px;
+    font-size: 16px;
+    text-align:left;
+    margin-left: 20px;
+
 }
 
 .contato h2 {
@@ -120,30 +123,30 @@ figure img {
     width: 100%;
     padding: 10px;
     height: 40%;
-    font-size: 20px;
+   
 }
 
 .habilidade h2 {
-margin-left: 30px;
+margin-left: 40px;
 width: 20px;
-font-size: 35px;
+font-size: 25px;
 color: var(--cor-verde);
 }
   
 .habilidade li {
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
 .barra {
     width: 100%;
     background-color:var(--cor-cinza1);
-    height: 20px;
+    height: 10px;
 }
 
 .progresso {
 width: 80%;
-height: 20px;
+height: 10px;
 background-color: var(--cor-verde);
 
 }
@@ -151,24 +154,24 @@ background-color: var(--cor-verde);
 .barraC {
     width: 100%;
     background-color:var(--cor-cinza1);
-    height: 20px;
+    height: 10px;
 }
 
 .progressoC {
 width: 90%;
-height: 20px;
+height: 10px;
 background-color: var(--cor-verde);
 
 }
 .barraR {
     width: 100%;
     background-color:var(--cor-cinza1);
-    height: 20px;
+    height: 10px;
 }
 
 .progressoR {
 width: 70%;
-height: 20px;
+height: 10px;
 background-color: var(--cor-verde);
 
 }
@@ -176,27 +179,31 @@ background-color: var(--cor-verde);
 .barraT {
     width: 100%;
     background-color:var(--cor-cinza1);
-    height: 20px;
+    height: 10px;
 }
 
 .progressoT {
 width: 90%;
-height: 20px;
+height: 10px;
 background-color: var(--cor-verde);
 
 }
 
 .idioma {
     width: 100%;
-    margin: auto;
-    padding:30px;
-    padding-top: 30px;
-    font-size: 25px;
+    padding:40px;
+    padding-top: 50px;
+    font-size:15;
     background-color: var(--cor-branco);
-    height: 30%;}
+    height: 0;
+    justify-content: space-between;
+    
+
+}
 
     .idioma h2 {
         color: var(--cor-verde);
+        padding: 10px;;
     }
     .circulo {
         width: 25px;
