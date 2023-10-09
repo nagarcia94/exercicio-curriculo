@@ -50,12 +50,12 @@ header {
 
 
 .container {
-    background-color:var(--cor-branco)
+    background-color:var(--cor-branco);
     padding: 2px;
     display: flex;
     justify-content: space-around;
     height: 100%;
-    margin:auto ;
+    margin:auto;
 
 }
 
