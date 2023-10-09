@@ -35,7 +35,6 @@ h1 {
 header p {
     color: var(--cor-cinza2);
     text-align: right;
-    margin-right: 30px;
     width: auto;
     font-size: 200%;
 
@@ -73,7 +72,7 @@ figure img {
 
 .coluna1 {
     background-color:var(--cor-branco);
-    width: 50%;
+    width: 45%;
     margin-left: 0px;
    
  
@@ -83,7 +82,7 @@ figure img {
 
 .coluna2 {
     background-color: var(--cor-branco);
-    width: 50%;
+    width: 65%;
     padding: 10px;
      
 }
@@ -230,8 +229,23 @@ display: inline-block;
 margin-right: 10px;
 } 
 
-@media screen mais {
+
     
-} {
+@media screen and (min-width: 400px) {
+
+header {
+    width: 100%;
+}
+
+header h1  {
+    font-size: 40px;
+}
+
+header p{
+    font-size: 35px;
+}
+figure img {
+    height: 100%;
+}
     
 }
