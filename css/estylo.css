@@ -50,7 +50,7 @@ header {
 
 
 .container {
-    background-color: #41B6A1;
+    background-color:var(--cor-branco)
     padding: 2px;
     display: flex;
     justify-content: space-around;
@@ -96,7 +96,7 @@ figure img {
 }
 
 .contato {
-    background-color: var(--cor-cinza1);
+    background-color: var(--cor-branco);
     width: 100%;
     max-height: max-content;
     padding: 25px;
