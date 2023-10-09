@@ -87,11 +87,16 @@ figure img {
      
 }
 .coluna2 h2 {
-    color: var(--cor-verde);
-    font-size: 35px;
+    color: var(--cor-preto);
+    font-size: 30px;
+    border-bottom-style:groove;
+    border-color: #41B6A1;
+    
+    
 }
 .coluna2 p {
     font-size: 30px;
+
 
 }
 
