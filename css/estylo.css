@@ -21,6 +21,11 @@ h1, h2, p {
 
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 h1 {
     color: var(--cor-verde); 
     text-align: right;
@@ -56,19 +61,14 @@ header {
 }
 
 figure img {
-    width: 50%;
+    width: 30%;
     display: flex;
+    max-width: min-content;
     
 }
 
-.foto {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 25vh;
-    width: 70vw;
+
     
-}
 
 .coluna1 {
     background-color:var(--cor-branco);
