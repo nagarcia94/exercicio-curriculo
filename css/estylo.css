@@ -75,6 +75,7 @@ figure img {
     background-color:var(--cor-branco);
     width: 50%;
     margin-left: 0px;
+   
  
   
 
@@ -229,3 +230,8 @@ display: inline-block;
 margin-right: 10px;
 } 
 
+@media screen mais {
+    
+} {
+    
+}
