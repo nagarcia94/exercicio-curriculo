@@ -90,9 +90,9 @@ figure img {
     color: var(--cor-preto);
     font-size: 30px;
     border-bottom-style:groove;
-    border-color: #41B6A1;
-    
-    
+    border-width: 6px; 
+    border-color: #82ecd9;
+   
 }
 .coluna2 p {
     font-size: 30px;
