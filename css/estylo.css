@@ -21,20 +21,16 @@ h1, h2, p {
 
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-}
 
 h1 {
     color: var(--cor-verde); 
-    text-align: right;
+    text-align: center;
     font-size: 400%;
 }
 
 header p {
     color: var(--cor-cinza2);
-    text-align: right;
+    text-align: center;
     width: auto;
     font-size: 200%;
 
@@ -50,7 +46,7 @@ header {
 
 
 .container {
-    background-color:var(--cor-branco);
+    
     padding: 2px;
     display: flex;
     justify-content: space-around;
@@ -61,29 +57,29 @@ header {
 
 figure img {
 
-    display: flex;
-    justify-content:right;
-    align-items:center;
-    width: 35%;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+  
+    
 }
 
 
     
 
 .coluna1 {
+    
     background-color:var(--cor-branco);
-    width: 45%;
+    width: 50%;
     margin-left: 0px;
-   
- 
-  
 
 }
 
 .coluna2 {
+
     background-color: var(--cor-branco);
-    width: 65%;
-    padding: 10px;
+    width: 60%;
+    padding: 15px;
      
 }
 .coluna2 h2 {
@@ -101,12 +97,12 @@ figure img {
 }
 
 .contato {
-    background-color: var(--cor-branco);
+    
     width: 60%;
     max-height: max-content;
     padding: 25px;
-    height: 30%;
-    font-size: 16px;
+    height: 60%;
+    font-size: 20px;
     text-align:left;
     margin-left: 20px;
 
@@ -119,10 +115,11 @@ figure img {
   
 
 .habilidade {
-    background-color: var(--cor-branco);
-    width: 100%;
+  
+    width: auto;
     padding: 10px;
-    height: 40%;
+    height: auto;
+
    
 }
 
@@ -190,14 +187,9 @@ background-color: var(--cor-verde);
 }
 
 .idioma {
-    width: 100%;
-    padding:40px;
-    padding-top: 50px;
-    font-size:15;
-    background-color: var(--cor-branco);
-    height: 0;
-    justify-content: space-between;
-    
+    width: auto;
+    padding: 10px;
+    height: auto;
 
 }
 
